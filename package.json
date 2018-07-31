@@ -1,0 +1,37 @@
+{
+  "name": "preact-stripe-example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html --no-hmr --no-autoinstall --open"
+  },
+  "alias": {
+    "react": "./src/utils/react",
+    "react-dom": "./src/utils/react"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": true
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead"
+  ],
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "preact": "^8.2.9",
+    "react-stripe-elements": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.9.7"
+  }
+}

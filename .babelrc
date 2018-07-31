@@ -1,0 +1,19 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    [
+      "transform-react-remove-prop-types",
+      "transform-react-jsx",
+      {
+        "pragma": "h"
+      }
+    ],
+    [
+      "transform-runtime",
+      {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ]
+  ]
+}

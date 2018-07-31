@@ -7,8 +7,8 @@
     "start": "parcel index.html --no-hmr --no-autoinstall --open"
   },
   "alias": {
-    "react": "./src/utils/react",
-    "react-dom": "./src/utils/react"
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
   },
   "prettier": {
     "singleQuote": true,
@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "preact": "^8.2.9",
+    "preact-compat": "^3.18.0",
     "react-stripe-elements": "^2.0.1"
   },
   "devDependencies": {
